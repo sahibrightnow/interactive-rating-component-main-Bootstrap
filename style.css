@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff !important;
+    background-color: hsl(216, 12%, 8%) !important;
+}
+.frame {
+    border: 1px solid #000;
+    padding: 5px;
+    margin: 5px;
+    background-color: hsl(213, 19%, 18%) !important;
+    width: 25rem;
+    height: 25rem !important;
+    
+}
+
+.feedback {
+    display:none;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    
+}
+
+#star {
+    background-color: hsla(216, 12%, 54%, .15);
+    padding: 1rem;
+    border-radius: 2rem;
+    box-sizing: content-box;
+}
+
+.number {
+    background-color:  hsla(216, 12%, 54%, .15);
+    padding: 1rem  1.5rem;
+    border-radius: 2rem;
+}
