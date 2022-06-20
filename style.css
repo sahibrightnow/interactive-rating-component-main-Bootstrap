@@ -13,11 +13,13 @@ body {
     background-color: hsl(213, 19%, 18%) !important;
     width: 25rem;
     height: 25rem !important;
-    
+    border-radius: 20%;
 }
 
 .feedback {
     display:none;
+    text-align: center;
+    margin: auto 10px;
 }
 
 .numbers {
@@ -27,10 +29,12 @@ body {
     flex-wrap: wrap;
     width: 100%;
     margin-bottom: 20px;
+    margin-top: 35px;
 }
 
-button {
+.btn {
     width: 100%;
+    margin-top: 15px;
     
 }
 
@@ -39,10 +43,32 @@ button {
     padding: 1rem;
     border-radius: 2rem;
     box-sizing: content-box;
+    margin-bottom: 30px;
 }
 
 .number {
     background-color:  hsla(216, 12%, 54%, .15);
     padding: 1rem  1.5rem;
     border-radius: 2rem;
+}
+
+.number:hover {
+    background-color: hsla(216, 12%, 54%, .3);
+    cursor: pointer;
+}
+
+.number:focus {
+    background-color: hsl(25, 97%, 53%);
+}
+
+#result {
+    color: hsl(25, 97%, 53%);
+    background-color: hsla(216, 12%, 54%, .15);
+    border-radius: 2rem;
+    margin: 20px 0;
+    padding: 0.5rem;
+}
+
+.thanks {
+    margin: 25px 0;
 }
